@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN = os.getenv("8062375197:AAESP2LXxr6bYjOEJuHohEEYOTAjfPDlo-w") or "8062375197:AAESP2LXxr6bYjOEJuHohEEYOTAjfPDlo-w"
 DB_FILE = 'cashier.db'
-WEBHOOK_URL = os.getenv("https://kasirapp.up.railway.app/8062375197:AAESP2LXxr6bYjOEJuHohEEYOTAjfPDlo-w") or "https://kasirapp.up.railway.app/8062375197:AAESP2LXxr6bYjOEJuHohEEYOTAjfPDlo-w/"
+WEBHOOK_URL = os.getenv("https://kasirapp.up.railway.app/") or "https://kasirapp.up.railway.app/"
 
 app = Flask(__name__)
 
